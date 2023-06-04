@@ -1,0 +1,668 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Caveat', cursive;
+
+}
+
+body {
+
+
+  background-image: url("../img/imagenesProductos/images/fotofondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+
+/*.principal {
+
+  display: flex;
+justify-content: center;
+align-content: center;
+}*/
+
+/*.tituloPrincipal {
+
+
+  font-size: 3rem;
+  color: white;
+  height: 8rem;
+  width: 85%;
+  
+  text-align: center;
+}*/
+
+
+/*.bannerPrincipal {
+
+ 
+  height: 8rem;
+width: 15%;
+}*/
+
+
+/*.logo {
+margin: 0%;
+height: 7rem;
+width: 7rem;
+background-color: rgba(73, 16, 6, 0.062);
+position: fixed;
+top: 0;
+
+}*/
+
+
+
+
+
+.primeraSeccion {
+
+ display: flex;
+  padding: 2rem;
+  margin-left: 15%;
+  
+  
+
+}
+
+.primeraSeccion p{
+flex-direction: column;
+flex-wrap: wrap;
+  padding: 0.5rem;
+  color: rgba(245, 245, 220, 0.329);
+font-weight: 600;
+
+}
+
+.primeraSeccion img{
+margin-top: 0%;
+margin-left: 5%;
+  height: 30rem;
+width: auto;
+}
+
+.segundoTitulo{
+margin-top: 1rem;
+margin-left: 15%;
+  padding: 1rem;
+width: 85%;
+color: rgb(167, 84, 7);
+}
+
+
+
+.tercerTitulo{
+
+width: 85%;
+margin-left: 15%;
+padding: 2rem;
+color: rgb(167, 84, 7) ;
+}
+
+.segundaSeccion{
+
+  display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+  
+}
+
+img{ 
+  margin-top: 3rem;
+margin-left: 15%;
+
+  height: 15rem;
+  width: 20rem;
+
+}
+
+.videotaller{
+
+  margin-top: 1rem;
+margin-left: 15%;
+  width: 60rem;
+  height: 30rem;
+
+}
+.vid{
+
+  display: flex;
+
+}
+
+.vid video{
+  margin-top: 1rem;
+margin-left: 15%;
+  width: 60rem;
+  height: 30rem;
+
+}
+
+form{
+margin-left: 15%;
+  width: 85%;
+
+}
+
+.bloqueFormu{
+display: flex;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+
+}
+
+.input1{
+
+  display: block;
+padding: 3rem;
+}
+
+.input1 input{
+
+height: 3rem;
+width: 100%;
+
+}
+
+.input1 label{
+display: flex;
+  margin-left: 35%;
+  padding: 1rem;
+  color: white;
+
+}
+
+.input2{
+
+  display: block;
+padding: 3rem;
+}
+
+
+.input2 input{
+
+  height: 3rem;
+  width: 100%;
+  
+  }
+  
+.input2 label{
+
+display: flex;
+  margin-left: 35%;
+  padding: 1rem;
+  color: white;
+
+}
+
+  .input3{
+
+    display: block;
+  padding: 3rem;
+  }
+
+  .input3 input{
+
+    height: 3rem;
+    width: 100%;
+    
+    }
+    
+    .input3 label{
+display: flex;
+      margin-left: 35%;
+      padding: 1rem;
+color: white;
+    }
+    
+
+    .input4{
+
+      display: flex;
+    padding: 3rem;
+    flex-direction: column;
+    
+    }
+
+    .input4 label{
+
+      margin-left: 35%;
+      padding: 1rem;
+      color: white;
+    }
+
+    .input4 textarea{
+
+      height: 20rem;
+      width: 100%;
+ 
+      }
+      
+      .input4 button{
+
+margin-top: 3rem;
+height: 5rem;
+width: 20%;
+margin-left: 35%;
+
+      }
+    
+      .contenedorMapa{
+
+        display: flex;
+flex-direction: column;
+margin-left: 15%;
+      }
+
+      .contenedorMapa h3{
+
+        padding: 1rem;
+margin-left: 15%;
+color: rgba(248, 248, 246, 0.685);
+font-weight: 700;
+
+      }
+
+
+/*footer{
+
+  margin-top: 3rem;
+height: 5rem;
+}
+
+footer nav ul{
+
+  list-style-type: none;
+text-align: center;
+}
+
+footer nav a  {
+
+  color: rgb(167, 84, 7) ;
+  text-decoration: none;
+  padding: 3rem;
+  font-weight: bold ;
+  font-size: large;
+}
+
+
+
+ footer nav li{
+
+
+display: inline-block;
+
+}*/
+
+.nav-link{
+
+  color: rgb(92, 47, 5) ;
+  font-weight: bold ;
+font-size: large;
+}
+
+.nav-item :hover{
+
+color: black;
+background-color: white;
+
+}
+
+@media (min-width: 1024px) and (max-width: 1400px){
+
+body{
+
+  background-image: url("../img/imagenesProductos/imagenesReparaciones/baseChelo1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+
+
+header{
+
+  display: grid;
+  grid-template-rows: 1fr ;
+ grid-template-columns: 1fr ;
+grid-template-areas: "bannerPrincipal tituloPrincipal" ;
+border: solid 1px white;
+}
+
+.principal {
+
+  display: flex;
+
+
+}
+
+.bannerPrincipal{
+display: flex;
+  grid-area: bannerPrincipal;
+height: 8rem;
+width: 8rem;
+}
+
+.logo{
+  margin-top: 0;
+margin-left: 0;
+  height: 8rem;
+width: 8rem;
+position: fixed;
+}
+
+.tituloPrincipal{
+display: flex;
+  grid-area: tituloPrincipal;
+  justify-content: center;
+  align-content: center ;
+  font-size: 3rem;
+  color: white;
+  width: 60rem ;
+}
+
+.primeraSeccion {
+
+  display: grid;
+grid-template-rows: 1fr;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-areas: "primeraSeccion";
+border: solid 1px white;
+}
+
+.primeraSeccion{
+
+  grid-area: primeraSeccion;
+
+}
+
+/*footer{
+
+  display: grid;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+grid-area: "footer";
+border: solid 1px white;
+
+}
+
+footer{
+  height:10rem;
+  grid-area: footer;
+
+}
+
+footer li{
+
+  margin-top: 5rem;
+
+}*/
+
+footer{
+
+height: 5rem ;
+margin-top: 4rem ;
+}
+
+footer a:hover{
+
+
+
+color: black;
+  background-color: white;
+
+}
+
+
+
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+
+body{
+
+  background-image: url("../img/imagenesProductos/imagenesReparaciones/guitarraClasica1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+.principal{
+
+  display: flex;
+
+}
+.bannerPrincipal img{
+
+  display: none;
+
+}
+
+.tituloPrincipal h1{
+padding: 3rem;
+  font-size: 3rem;
+  width: 100%;
+margin: 0;
+}
+
+.primeraSeccion{
+display: grid;
+  display: flex;
+flex-direction: column;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 1fr;
+grid-template-areas: "p"
+"img";
+border: solid 1px white;
+
+
+}
+
+.primeraSeccion{
+justify-content: center;
+  align-items: center;
+
+}
+
+.primeraSeccion img{
+
+  height: 20rem;
+
+}
+
+p{
+
+  grid-area: p;
+
+}
+
+img{
+
+  
+  grid-area: img;
+
+}
+
+.segundaSeccion{
+
+  display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.segundaSeccion img {
+height: 15rem;
+width: 15rem;
+
+margin-top: 5px;
+}
+
+.videotaller{
+
+  
+  height: 15rem;
+  width: 15rem;
+  margin-top: 20px;
+  
+}
+
+
+
+footer{
+
+  display: flex;
+
+height: 10rem;
+padding: 0rem;
+flex-direction:row;
+
+}
+
+
+footer ul li{
+
+  margin-top: 1rem;
+  display: inline-block;
+
+}
+
+.bloqueFormu{
+display: flex;
+  margin: 0;
+justify-content: center;
+}
+
+form{
+  
+margin: 0;
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0;
+}
+
+.input1 label{
+/*padding: 0;*/
+  
+margin: 0;
+}
+
+.input1 {
+  margin: 0;
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0;
+width: 100%;
+}
+
+.input2 label{
+  /*padding: 0;*/
+    
+margin-left: 0;
+}
+
+.input2{
+  margin: 0;
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0;
+  width: 100%;
+margin-top: 2rem;
+}
+
+.input3 label{
+  /*padding: 0;*/
+    
+  margin-left: 0;
+  }
+
+  .input3{
+
+    margin: 0;
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0;
+  width: 100%;
+margin-top: 2rem;
+
+  }
+
+    .input4 label{
+      /*padding: 0;*/
+        
+       margin-left: 0;
+      
+      }
+
+      .input4{
+
+        margin: 0;
+        display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+        width: 100%;
+      margin-top: 2rem;
+      }
+      
+
+      .buttonContacto{
+
+        display: flex;
+flex-direction: column;
+justify-content: center;
+      }
+      
+      .buttonContacto button{
+margin-top: 3rem;
+width: 7rem;
+align-items: center;
+margin-left: 0;
+
+      }
+
+      .contenedorMapa{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+  
+      }
+
+      .contenedorMapa h3{
+
+margin-left: 0;
+
+
+      }
+      
+.contenedorMapa iframe{
+margin-left: 0;
+  height: 8rem;
+width: 70%
+}
+
+footer{
+
+  display: flex;
+  justify-content: center;
+align-items: center;
+} 
+
+
+       }
