@@ -10,7 +10,7 @@
 
 }
 
-@media (min-width: 1024px){
+@media (min-width: 1025px) and (max-width: 1200px){
 
 
 body {
@@ -119,6 +119,19 @@ align-items: center;
   
   width: 40rem;
 height: 20rem;
+}
+
+.videoDelIndex{
+
+  display: flex;
+  justify-content: center;
+margin-top: 3rem;
+}
+
+.videotaller{
+
+  height: 40rem;
+
 }
 
 footer{
@@ -309,6 +322,25 @@ margin-bottom: 3rem;
 
   width: 90%;
 
+}
+
+
+
+.imagenesProdContenedor{
+
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.segundoTitulo{
+
+  color: rgb(167, 84, 7);
+  padding: 0;
+  background-color: black;
+font-size: 3rem;
+margin-bottom: 3rem;
+margin-top: 3rem;
 }
 
 @media (min-width: 1200px){
