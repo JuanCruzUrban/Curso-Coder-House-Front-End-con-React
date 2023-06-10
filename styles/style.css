@@ -10,7 +10,7 @@
 
 }
 
-@media (min-width: 1025px) and (max-width: 1200px){
+@media (min-width: 1024px){
 
 
 body {
@@ -23,36 +23,48 @@ body {
 
 }
 
-.principal{
+header{
 
   display: flex;
 
+}
+
+.principal{
+
+  display: flex;
+width: 100%;
+align-items: center;
 }
 
 .bannerPrincipal{
 
   display: flex;
-
+height: 8rem;
+width: 8rem;
+justify-content: center;
+align-content: center;
 }
 
-.bannerPrincipal img{
+.logo {
 
   margin: 0;
-height: 10rem;
-width: 10rem;
+height: 100%;
+width: 100%;
 }
 
 .tituloPrincipal{
-  justify-content: center;
-align-items: center;
   display: flex;
-width: 100%;
+  justify-content: center;
+align-content: center;
+  width: 100%;
+  font-size: 7rem;
+
 }
 
 .tituloPrincipal h1{
 
   color: white;
-font-size: 8rem;
+font-size: 7rem;
 }
 
 .secundario{
@@ -74,13 +86,16 @@ background-color: black;
  display: flex;
   padding: 3rem;
   margin-top: 3rem;
+  flex-direction: row;
+  
 }
 
 .primeraSeccion p{
-flex-direction: column;
+
   color: rgba(245, 245, 220, 0.658);
 padding: 1rem;
 font-size: 2.5rem;
+
 }
 
 .primeraSeccion img{
@@ -94,6 +109,7 @@ width: auto;
 
   display: flex;
   flex-direction: column;
+  margin-top: 2rem;
 }
 
 
@@ -343,7 +359,9 @@ margin-bottom: 3rem;
 margin-top: 3rem;
 }
 
-@media (min-width: 1200px){
+}
+
+@media (min-width: 1200px) {
 
 body{
 
@@ -384,7 +402,7 @@ width: 8rem;
 margin-left: 0;
   height: 8rem;
 width: 8rem;
-position: fixed;
+
 }
 
 .tituloPrincipal{
@@ -395,15 +413,25 @@ display: flex;
   font-size: 3rem;
   color: white;
   width: 60rem ;
+
+}
+
+.secundario{
+
+  display: flex;
+  flex-direction: column;
+
 }
 
 .primeraSeccion {
 
   display: grid;
 grid-template-rows: 1fr;
-grid-template-columns: 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr ;
 grid-template-areas: "primeraSeccion";
 border: solid 1px white;
+align-items: center;
+justify-items: center;
 }
 
 .primeraSeccion{
@@ -412,285 +440,220 @@ border: solid 1px white;
 
 }
 
-/*footer{
-
-  display: grid;
-
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-grid-area: "footer";
-border: solid 1px white;
-
-}
-
-footer{
-  height:10rem;
-  grid-area: footer;
-
-}
-
-footer li{
-
-  margin-top: 5rem;
-
-}*/
-
-footer{
-
-height: 5rem ;
-margin-top: 4rem ;
-}
-
-footer a:hover{
-
-
-
-color: black;
-  background-color: white;
-
-}
-
-
-
-}
-
-@media (min-width: 320px) and (max-width: 480px){
-
-body{
-
-  background-image: url("../img/imagenesProductos/images/fotofondo.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
-
-
-.principal{
-
-  display: flex;
-
-}
-.bannerPrincipal img{
-
-  display: none;
-
-}
-
-.tituloPrincipal h1{
-padding: 3rem;
-  font-size: 3rem;
-  width: 100%;
-margin: 0;
-}
-
-.primeraSeccion{
-display: grid;
-  display: flex;
-flex-direction: column;
-grid-template-columns: 1fr;
-grid-template-rows: 1fr 1fr;
-grid-template-areas: "p"
-"img";
-border: solid 1px white;
-
-
-}
-
-.primeraSeccion{
-justify-content: center;
-  align-items: center;
-
-}
-
-.primeraSeccion img{
-
-  height: 20rem;
-
-}
-
-p{
-
-  grid-area: p;
-
-}
-
-img{
-
-  
-  grid-area: img;
-
-}
-
-.segundaSeccion{
-
-  display: flex;
-justify-content: center;
-flex-direction: column;
-}
-
-.segundaSeccion img {
-height: 15rem;
-width: 15rem;
-
-margin-top: 5px;
-}
-
-.videotaller{
-
-  
-  height: 15rem;
-  width: 15rem;
-  margin-top: 20px;
-  
-}
-
 
 
 footer{
-
-  display: flex;
-
-height: 10rem;
-padding: 0rem;
-flex-direction:row;
-
-}
-
-
-footer ul li{
-
-  margin-top: 1rem;
-  display: inline-block;
-
-}
-
-.bloqueFormu{
-display: flex;
-  margin: 0;
-justify-content: center;
-}
-
-form{
-  
-margin: 0;
-  display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0;
-}
-
-.input1 label{
-/*padding: 0;*/
-  
-margin: 0;
-}
-
-.input1 {
-  margin: 0;
-  display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0;
-width: 100%;
-}
-
-.input2 label{
-  /*padding: 0;*/
-    
-margin-left: 0;
-}
-
-.input2{
-  margin: 0;
-  display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0;
-  width: 100%;
-margin-top: 2rem;
-}
-
-.input3 label{
-  /*padding: 0;*/
-    
-  margin-left: 0;
-  }
-
-  .input3{
-
-    margin: 0;
-  display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0;
-  width: 100%;
-margin-top: 2rem;
-
-  }
-
-    .input4 label{
-      /*padding: 0;*/
-        
-       margin-left: 0;
-      
-      }
-
-      .input4{
-
-        margin: 0;
-        display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 0;
-        width: 100%;
-      margin-top: 2rem;
-      }
-      
-
-      .buttonContacto{
-
-        display: flex;
-flex-direction: column;
-justify-content: center;
-      }
-      
-      .buttonContacto button{
-margin-top: 3rem;
-width: 7rem;
-align-items: center;
-margin-left: 0;
-
-      }
-
-      .contenedorMapa{
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-  
-      }
-
-      .contenedorMapa h3{
-
-margin-left: 0;
-
-
-      }
-      
-.contenedorMapa iframe{
-margin-left: 0;
-  height: 8rem;
-width: 70%
-}
-
-footer{
-
   display: flex;
   justify-content: center;
-align-items: center;
-} 
+  height: 8rem;
+  align-items: center;
+  
+  }
+  
+  
+  
+  .pieDePagina a{
+  padding-left: 5rem;
+  padding-right: 5rem;
+    font-size: 2rem;
+  /*padding: 6rem;*/
+  color: white
+  /*border: solid 1px black;*/
+  
+  }
+  
+  
+  .pieDePagina a:hover{
+  
+    color: rgb(167, 84, 7) ;
+    background-color: black;
+  
+  }
 
+  .bloqueFormu{
 
-        }
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  
+  form{
+  
+    display: flex;
+    justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  }
+  
+  .input1{
+  display: flex;
+    width: 100%;
+    justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  }
+  
+  .input1 label{
+  
+  font-size: 4rem;
+  color: rgb(167, 84, 7) ;
+  background-color: black;
+  margin-bottom: 2rem;
+  }
+  
+  .input1 input{
+  
+    width: 60%;
+  height: 3rem;
+  border: solid black 3px;
+  }
+  
+  .input2{
+  
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  
+  .input2 label{
+  
+    font-size: 4rem;
+    color: rgb(167, 84, 7) ;
+    background-color: black;
+    margin-bottom: 2rem;
+    }
+    
+    .input2 input{
+    
+      width: 60%;
+    height: 3rem;
+    border: solid black 3px;
+    }
+  
+  .input3{
+  
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  
+  .input3 label{
+  
+    font-size: 4rem;
+    color: rgb(167, 84, 7) ;
+    background-color: black;
+    margin-bottom: 2rem;
+    }
+    
+    .input3 input{
+    
+      width: 60%;
+    height: 3rem;
+    border: solid black 3px;
+    }
+  
+    .input4{
+  
+      display: flex;
+      width: 100%;
+      justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+    }
+    
+    .input4 label{
+  
+      font-size: 4rem;
+      color: rgb(167, 84, 7) ;
+      background-color: black;
+      margin-bottom: 2rem;
       }
+      
+      .input4 textarea{
+      
+        width: 60%;
+      height: 15rem;
+      border: solid black 3px;
+      }
+  
+      .buttonContacto {
+  
+        display: flex;
+      width: 100%;
+      justify-content: center;
+  
+  align-content: center;
+  
+      }
+  
+      .buttonContacto button{
+  margin-top: 3rem;
+        width: 15%;
+  height: 8rem;
+      }
+  
+  
+      
+        .contenedorMapa{
+  
+          display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  }
+  
+  .contenedorMapa h3{
+  
+    color: rgb(167, 84, 7);
+    padding: 0;
+    margin: 0;
+  font-size: 3rem;
+  background-color: black;
+  margin-bottom: 3rem;
+  
+  }
+  
+  .contenedorMapa iframe{
+  
+    width: 90%;
+  
+  }
+  
+  
+  
+  .imagenesProdContenedor{
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  }
+  
+  .segundoTitulo{
+  
+    color: rgb(167, 84, 7);
+    padding: 0;
+    background-color: black;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  }
+  
+  }
+
+
+
+
+
+      
