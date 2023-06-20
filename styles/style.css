@@ -15,30 +15,24 @@
   header {
     display: flex;
   }
-  .principal {
+  header .principal {
     display: flex;
     width: 100%;
     justify-content: center;
   }
-  .bannerPrincipal {
+  header .principal .bannerPrincipal {
     display: none;
     height: 5rem;
     width: 5rem;
     justify-content: center;
     align-content: center;
   }
-  .logo {
+  header .principal .bannerPrincipal .logo {
     margin: 0;
     height: 100%;
     width: 100%;
   }
-  .tituloPrincipal {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
-  }
-  .tituloPrincipal h1 {
+  header .principal .tituloPrincipal h1 {
     color: white;
     font-size: 4rem;
   }

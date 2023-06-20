@@ -1,3 +1,5 @@
+$colordelh1: white;
+$colordelh2: rgb(167, 84, 7);
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 
 * {
@@ -21,52 +23,51 @@
   
   }
   
+  //header 
+
   header{
-  
-    display: flex;
-  
-  }
-  
-  .principal{
-  
-    display: flex;
-  width: 100%;
-  
-  justify-content: center;
-  }
-  
-  .bannerPrincipal{
 
-    display: none;
-  height: 5rem;
-  width: 5rem;
-  justify-content: center;
-  align-content: center;
-  }
-  
-  .logo {
-  
-    margin: 0;
-  height: 100%;
-  width: 100%;
-  
-  }
-
-
-  .tituloPrincipal{
     display: flex;
-    justify-content: center;
-  align-content: center;
-    width: 100%;
+
+    .principal{
+  
+        display: flex;
+      width: 100%;
+      
+      justify-content: center;
+      
+      .bannerPrincipal{
+
+        display: none;
+      height: 5rem;
+      width: 5rem;
+      justify-content: center;
+      align-content: center;
     
+      .logo {
   
-  }
+        margin: 0;
+      height: 100%;
+      width: 100%;
+      
+
+      }
+   
+   
+    }
+    
+    .tituloPrincipal h1{
   
-  .tituloPrincipal h1{
-  
-    color: white;
-  font-size: 4rem;
-  }
+color: $colordelh1;
+      font-size: 4rem;
+     
+    }
+    
+    }
+      
+      
+
+}
   
   .secundario{
   margin-top: 1rem;
