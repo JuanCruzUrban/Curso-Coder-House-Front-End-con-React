@@ -41,14 +41,14 @@
     display: flex;
     flex-direction: column;
   }
-  .secundario h2 {
+  .secundario .secundario h2 {
     color: rgb(167, 84, 7);
     padding: 0;
     margin: 0;
     font-size: 2rem;
     background-color: black;
   }
-  .primeraSeccion {
+  .secundario .primeraSeccion {
     display: flex;
     padding: 1rem;
     margin-top: 1rem;
@@ -56,12 +56,12 @@
     justify-content: center;
     align-items: center;
   }
-  .primeraSeccion p {
+  .secundario .primeraSeccion p {
     color: rgba(245, 245, 220, 0.658);
     padding: 1rem;
     font-size: 1rem;
   }
-  .primeraSeccion img {
+  .secundario .primeraSeccion img {
     margin: 0;
     height: 25rem;
     width: 15rem;
@@ -71,21 +71,21 @@
     flex-direction: column;
     margin-top: 1rem;
   }
-  .tercerTitulo {
+  .terciario .tercerTitulo {
     color: rgb(167, 84, 7);
     padding: 0;
     background-color: black;
     font-size: 2rem;
     margin-bottom: 2rem;
   }
-  .segundaSeccion {
+  .terciario .segundaSeccion {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: auto;
   }
-  .segundaSeccion img {
+  .terciario .segundaSeccion img {
     width: 15rem;
     height: 20rem;
   }
@@ -94,7 +94,7 @@
     justify-content: center;
     margin-top: 3rem;
   }
-  .videotaller {
+  .videoDelIndex video {
     height: 20rem;
     width: auto;
   }
@@ -104,13 +104,13 @@
     height: 8rem;
     align-items: center;
   }
-  .pieDePagina a {
+  footer .pieDePagina a {
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 1rem;
     color: white;
   }
-  .pieDePagina a:hover {
+  footer .pieDePagina a:hover {
     color: rgb(167, 84, 7);
     background-color: black;
   }
@@ -120,14 +120,14 @@
     flex-direction: column;
     align-items: center;
   }
-  form {
+  .bloqueFormu form {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     width: 100%;
   }
-  .input1 {
+  .bloqueFormu form .input1 {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -135,18 +135,18 @@
     align-items: center;
     margin-top: 3rem;
   }
-  .input1 label {
+  .bloqueFormu form .input1 label {
     font-size: 2rem;
     color: rgb(167, 84, 7);
     background-color: black;
     margin-bottom: 2rem;
   }
-  .input1 input {
+  .bloqueFormu form .input1 input {
     width: 60%;
     height: 3rem;
     border: solid black 3px;
   }
-  .input2 {
+  .bloqueFormu form .input2 {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -154,18 +154,18 @@
     align-items: center;
     margin-top: 3rem;
   }
-  .input2 label {
+  .bloqueFormu form .input2 label {
     font-size: 2rem;
     color: rgb(167, 84, 7);
     background-color: black;
     margin-bottom: 2rem;
   }
-  .input2 input {
+  .bloqueFormu form .input2 input {
     width: 60%;
     height: 3rem;
     border: solid black 3px;
   }
-  .input3 {
+  .bloqueFormu form .input3 {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -173,18 +173,18 @@
     align-items: center;
     margin-top: 3rem;
   }
-  .input3 label {
+  .bloqueFormu form .input3 label {
     font-size: 2rem;
     color: rgb(167, 84, 7);
     background-color: black;
     margin-bottom: 2rem;
   }
-  .input3 input {
+  .bloqueFormu form .input3 input {
     width: 60%;
     height: 3rem;
     border: solid black 3px;
   }
-  .input4 {
+  .bloqueFormu form .input4 {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -192,24 +192,24 @@
     align-items: center;
     margin-top: 3rem;
   }
-  .input4 label {
+  .bloqueFormu form .input4 label {
     font-size: 2rem;
     color: rgb(167, 84, 7);
     background-color: black;
     margin-bottom: 2rem;
   }
-  .input4 textarea {
+  .bloqueFormu form .input4 textarea {
     width: 60%;
     height: 15rem;
     border: solid black 3px;
   }
-  .buttonContacto {
+  .bloqueFormu form .input4 .buttonContacto {
     display: flex;
     width: 100%;
     justify-content: center;
     align-content: center;
   }
-  .buttonContacto button {
+  .bloqueFormu form .input4 .buttonContacto button {
     margin-top: 3rem;
     width: 30%;
     height: 8rem;
@@ -234,10 +234,12 @@
   }
   .imagenesProdContenedor {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
   }
-  .segundoTitulo {
+  .imagenesProdContenedor h3 {
     color: rgb(167, 84, 7);
     padding: 0;
     background-color: black;
@@ -245,32 +247,55 @@
     margin-bottom: 3rem;
     margin-top: 3rem;
   }
+  .imagenesProdContenedor img {
+    width: 15rem;
+    height: 20rem;
+  }
+  .sectionReparaciones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+  }
+  .sectionReparaciones h3 {
+    color: rgb(167, 84, 7);
+    padding: 0;
+    background-color: black;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+  .sectionReparaciones img {
+    width: 10rem;
+    height: 12rem;
+  }
   .videosClientes {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 3rem;
   }
-  .videosClientes h3 {
+  .videosClientes .videosClientes h3 {
     color: rgb(167, 84, 7);
     padding: 0;
     margin: 0;
     font-size: 2rem;
     background-color: black;
   }
-  .ukeYGuitarra {
+  .videosClientes .ukeYGuitarra {
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
-  .videoUke {
+  .videosClientes .ukeYGuitarra .videoUke {
     height: 20rem;
     width: auto;
     padding-left: 1rem;
     padding-right: 2rem;
     margin-top: 1rem;
   }
-  .videoGuitarra {
+  .videosClientes .ukeYGuitarra .videoGuitarra {
     margin-top: 1rem;
     height: 20rem;
     width: auto;
@@ -287,30 +312,30 @@
   header {
     display: flex;
   }
-  .principal {
+  header .principal {
     display: flex;
     width: 100%;
     justify-content: center;
   }
-  .bannerPrincipal {
+  header .bannerPrincipal {
     display: none;
     height: 8rem;
     width: 8rem;
     justify-content: center;
     align-content: center;
   }
-  .logo {
+  header .bannerPrincipal .logo {
     margin: 0;
     height: 100%;
     width: 100%;
   }
-  .tituloPrincipal {
+  header .bannerPrincipal .tituloPrincipal {
     display: flex;
     justify-content: center;
     align-content: center;
     width: 100%;
   }
-  .tituloPrincipal h1 {
+  header .bannerPrincipal .tituloPrincipal h1 {
     color: white;
     font-size: 6rem;
   }
@@ -326,7 +351,7 @@
     font-size: 2rem;
     background-color: black;
   }
-  .primeraSeccion {
+  .secundario .primeraSeccion {
     display: flex;
     padding: 1rem;
     margin-top: 1rem;
@@ -334,12 +359,12 @@
     justify-content: center;
     align-items: center;
   }
-  .primeraSeccion p {
+  .secundario .primeraSeccion p {
     color: rgba(245, 245, 220, 0.658);
     padding: 1rem;
     font-size: 1.5rem;
   }
-  .primeraSeccion img {
+  .secundario .primeraSeccion p img {
     margin: 0;
     padding-left: 1rem;
     height: 25rem;
@@ -350,22 +375,22 @@
     flex-direction: column;
     margin-top: 2rem;
   }
-  .tercerTitulo {
+  .terciario h3 {
     color: rgb(167, 84, 7);
     padding: 0;
     background-color: black;
     font-size: 2rem;
     margin-bottom: 3rem;
   }
-  .segundaSeccion {
+  .terciario .segundaSeccion {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 90%;
   }
-  .segundaSeccion img {
-    width: 40rem;
+  .terciario .segundaSeccion img {
+    width: 30rem;
     height: 20rem;
   }
   .videoDelIndex {
@@ -373,8 +398,9 @@
     justify-content: center;
     margin-top: 3rem;
   }
-  .videotaller {
-    height: 40rem;
+  .videoDelIndex video {
+    height: 30rem;
+    width: auto;
   }
   footer {
     display: flex;
@@ -382,13 +408,13 @@
     height: 8rem;
     align-items: center;
   }
-  .pieDePagina a {
+  footer .pieDePagina a {
     padding-left: 2rem;
     padding-right: 2rem;
     font-size: 2rem;
     color: white;
   }
-  .pieDePagina a:hover {
+  footer .pieDePagina a:hover {
     color: rgb(167, 84, 7);
     background-color: black;
   }
@@ -398,14 +424,14 @@
     flex-direction: column;
     align-items: center;
   }
-  form {
+  .bloqueFormu form {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     width: 100%;
   }
-  .input1 {
+  .bloqueFormu form .input1 {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -413,18 +439,18 @@
     align-items: center;
     margin-top: 3rem;
   }
-  .input1 label {
+  .bloqueFormu form .input1 label {
     font-size: 2rem;
     color: rgb(167, 84, 7);
     background-color: black;
     margin-bottom: 2rem;
   }
-  .input1 input {
+  .bloqueFormu form .input1 input {
     width: 60%;
     height: 3rem;
     border: solid black 3px;
   }
-  .input2 {
+  .bloqueFormu form .input2 {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -432,18 +458,18 @@
     align-items: center;
     margin-top: 3rem;
   }
-  .input2 label {
+  .bloqueFormu form .input2 label {
     font-size: 2rem;
     color: rgb(167, 84, 7);
     background-color: black;
     margin-bottom: 2rem;
   }
-  .input2 input {
+  .bloqueFormu form .input2 input {
     width: 60%;
     height: 3rem;
     border: solid black 3px;
   }
-  .input3 {
+  .bloqueFormu form .input3 {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -451,18 +477,18 @@
     align-items: center;
     margin-top: 3rem;
   }
-  .input3 label {
+  .bloqueFormu form .input3 label {
     font-size: 2rem;
     color: rgb(167, 84, 7);
     background-color: black;
     margin-bottom: 2rem;
   }
-  .input3 input {
+  .bloqueFormu form .input3 input {
     width: 60%;
     height: 3rem;
     border: solid black 3px;
   }
-  .input4 {
+  .bloqueFormu form .input4 {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -470,24 +496,24 @@
     align-items: center;
     margin-top: 3rem;
   }
-  .input4 label {
+  .bloqueFormu form .input4 label {
     font-size: 2rem;
     color: rgb(167, 84, 7);
     background-color: black;
     margin-bottom: 2rem;
   }
-  .input4 textarea {
+  .bloqueFormu form .input4 textarea {
     width: 60%;
     height: 15rem;
     border: solid black 3px;
   }
-  .buttonContacto {
+  .bloqueFormu form .input4 .buttonContacto {
     display: flex;
     width: 100%;
     justify-content: center;
     align-content: center;
   }
-  .buttonContacto button {
+  .bloqueFormu form .input4 .buttonContacto button {
     margin-top: 3rem;
     width: 15%;
     height: 8rem;
@@ -515,7 +541,7 @@
     justify-content: center;
     flex-direction: column;
   }
-  .segundoTitulo {
+  .imagenesProdContenedor h3 {
     color: rgb(167, 84, 7);
     padding: 0;
     background-color: black;
@@ -537,19 +563,19 @@
     background-color: black;
     margin-bottom: 3rem;
   }
-  .ukeYGuitarra {
+  .videosClientes .ukeYGuitarra {
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
-  .videoUke {
+  .videosClientes .ukeYGuitarra .videoUke {
     height: 20rem;
     width: auto;
     padding-left: 1rem;
     padding-right: 2rem;
     margin-top: 1rem;
   }
-  .videoGuitarra {
+  .videosClientes .ukeYGuitarra .videoGuitarra {
     margin-top: 1rem;
     height: 20rem;
     width: auto;
@@ -566,30 +592,30 @@
   header {
     display: flex;
   }
-  .principal {
+  header .principal {
     display: flex;
     width: 100%;
     justify-content: center;
   }
-  .bannerPrincipal {
+  header .principal .bannerPrincipal {
     display: none;
     height: 8rem;
     width: 8rem;
     justify-content: center;
     align-content: center;
   }
-  .logo {
+  header .principal .bannerPrincipal .logo {
     margin: 0;
     height: 100%;
     width: 100%;
   }
-  .tituloPrincipal {
+  header .principal .bannerPrincipal .tituloPrincipal {
     display: flex;
     justify-content: center;
     align-content: center;
     width: 100%;
   }
-  .tituloPrincipal h1 {
+  header .principal .bannerPrincipal .tituloPrincipal h1 {
     color: white;
     font-size: 6rem;
   }
@@ -605,7 +631,7 @@
     font-size: 2rem;
     background-color: black;
   }
-  .primeraSeccion {
+  .secundario .primeraSeccion {
     display: flex;
     padding: 1rem;
     margin-top: 1rem;
@@ -613,12 +639,12 @@
     justify-content: center;
     align-items: center;
   }
-  .primeraSeccion p {
+  .secundario .primeraSeccion p {
     color: rgba(245, 245, 220, 0.658);
     padding: 1rem;
     font-size: 1.5rem;
   }
-  .primeraSeccion img {
+  .secundario .primeraSeccion p img {
     margin: 0;
     padding-left: 1rem;
     height: 25rem;
@@ -629,21 +655,21 @@
     flex-direction: column;
     margin-top: 2rem;
   }
-  .tercerTitulo {
+  .terciario h3 {
     color: rgb(167, 84, 7);
     padding: 0;
     background-color: black;
     font-size: 2rem;
     margin-bottom: 3rem;
   }
-  .segundaSeccion {
+  .terciario .segundaSeccion {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .segundaSeccion img {
-    width: 40rem;
+  .terciario .segundaSeccion img {
+    width: 30rem;
     height: 20rem;
   }
   .videoDelIndex {
@@ -651,8 +677,8 @@
     justify-content: center;
     margin-top: 3rem;
   }
-  .videotaller {
-    height: 40rem;
+  .videoDelIndex video {
+    height: 30rem;
   }
   footer {
     display: flex;
@@ -660,13 +686,13 @@
     height: 8rem;
     align-items: center;
   }
-  .pieDePagina a {
+  footer .pieDePagina a {
     padding-left: 3rem;
     padding-right: 3rem;
     font-size: 2rem;
     color: white;
   }
-  .pieDePagina a:hover {
+  footer .pieDePagina a:hover {
     color: rgb(167, 84, 7);
     background-color: black;
   }
@@ -676,14 +702,14 @@
     flex-direction: column;
     align-items: center;
   }
-  form {
+  .bloqueFormu form {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     width: 100%;
   }
-  .input1 {
+  .bloqueFormu form .input1 {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -691,18 +717,18 @@
     align-items: center;
     margin-top: 3rem;
   }
-  .input1 label {
+  .bloqueFormu form .input1 label {
     font-size: 2rem;
     color: rgb(167, 84, 7);
     background-color: black;
     margin-bottom: 2rem;
   }
-  .input1 input {
+  .bloqueFormu form .input1 input {
     width: 60%;
     height: 3rem;
     border: solid black 3px;
   }
-  .input2 {
+  .bloqueFormu form .input2 {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -710,18 +736,18 @@
     align-items: center;
     margin-top: 3rem;
   }
-  .input2 label {
+  .bloqueFormu form .input2 label {
     font-size: 2rem;
     color: rgb(167, 84, 7);
     background-color: black;
     margin-bottom: 2rem;
   }
-  .input2 input {
+  .bloqueFormu form .input2 input {
     width: 60%;
     height: 3rem;
     border: solid black 3px;
   }
-  .input3 {
+  .bloqueFormu form .input3 {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -729,18 +755,18 @@
     align-items: center;
     margin-top: 3rem;
   }
-  .input3 label {
+  .bloqueFormu form .input3 label {
     font-size: 2rem;
     color: rgb(167, 84, 7);
     background-color: black;
     margin-bottom: 2rem;
   }
-  .input3 input {
+  .bloqueFormu form .input3 input {
     width: 60%;
     height: 3rem;
     border: solid black 3px;
   }
-  .input4 {
+  .bloqueFormu form .input4 {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -748,24 +774,24 @@
     align-items: center;
     margin-top: 3rem;
   }
-  .input4 label {
+  .bloqueFormu form .input4 label {
     font-size: 2rem;
     color: rgb(167, 84, 7);
     background-color: black;
     margin-bottom: 2rem;
   }
-  .input4 textarea {
+  .bloqueFormu form .input4 textarea {
     width: 60%;
     height: 15rem;
     border: solid black 3px;
   }
-  .buttonContacto {
+  .bloqueFormu form .input4 .buttonContacto {
     display: flex;
     width: 100%;
     justify-content: center;
     align-content: center;
   }
-  .buttonContacto button {
+  .bloqueFormu form .input4 .buttonContacto button {
     margin-top: 3rem;
     width: 15%;
     height: 8rem;
@@ -793,7 +819,7 @@
     justify-content: center;
     flex-direction: column;
   }
-  .segundoTitulo {
+  .imagenesProdContenedor h3 {
     color: rgb(167, 84, 7);
     padding: 0;
     background-color: black;
@@ -815,18 +841,18 @@
     background-color: black;
     margin-bottom: 3rem;
   }
-  .ukeYGuitarra {
+  .videosClientes .ukeYGuitarra {
     display: flex;
     justify-content: center;
     flex-direction: row;
   }
-  .videoUke {
+  .videosClientes .ukeYGuitarra .videoUke {
     height: 30rem;
     width: 50%;
     padding-left: 1rem;
     padding-right: 2rem;
   }
-  .videoGuitarra {
+  .videosClientes .ukeYGuitarra .videoGuitarra {
     height: 30rem;
     width: 50%;
     padding-right: 1rem;
@@ -842,32 +868,32 @@
   header {
     display: flex;
   }
-  .principal {
+  header .principal {
     display: flex;
     width: 100%;
     align-items: center;
   }
-  .bannerPrincipal {
+  header .principal .bannerPrincipal {
     display: flex;
     height: 8rem;
     width: 8rem;
     justify-content: center;
     align-content: center;
   }
-  .logo {
+  header .principal .bannerPrincipal .logo {
     margin: 0;
     height: 100%;
     width: 100%;
     visibility: visible;
   }
-  .tituloPrincipal {
+  header .principal .tituloPrincipal {
     display: flex;
     justify-content: center;
     align-content: center;
     width: 100%;
     font-size: 7rem;
   }
-  .tituloPrincipal h1 {
+  header .principal .tituloPrincipal h1 {
     color: white;
     font-size: 7rem;
   }
@@ -883,18 +909,18 @@
     font-size: 4rem;
     background-color: black;
   }
-  .primeraSeccion {
+  .secundario .primeraSeccion {
     display: flex;
     padding: 3rem;
     margin-top: 3rem;
     flex-direction: row;
   }
-  .primeraSeccion p {
+  .secundario .primeraSeccion p {
     color: rgba(245, 245, 220, 0.658);
     padding: 1rem;
     font-size: 2.5rem;
   }
-  .primeraSeccion img {
+  .secundario .primeraSeccion img {
     margin: 0;
     padding-left: 1rem;
     height: 30rem;
@@ -905,20 +931,20 @@
     flex-direction: column;
     margin-top: 2rem;
   }
-  .tercerTitulo {
+  .terciario h3 {
     color: rgb(167, 84, 7);
     padding: 0;
     background-color: black;
     font-size: 3rem;
     margin-bottom: 3rem;
   }
-  .segundaSeccion {
+  .terciario .segundaSeccion {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .segundaSeccion img {
+  .terciario .segundaSeccion img {
     width: 40rem;
     height: 20rem;
   }
@@ -927,7 +953,7 @@
     justify-content: center;
     margin-top: 3rem;
   }
-  .videotaller {
+  .videoDelIndex video {
     height: 40rem;
   }
   footer {
@@ -936,14 +962,14 @@
     height: 8rem;
     align-items: center;
   }
-  .pieDePagina a {
+  footer .pieDePagina a {
     padding-left: 5rem;
     padding-right: 5rem;
     font-size: 2rem;
     /*padding: 6rem;*/
     color: white;
   }
-  .pieDePagina a:hover {
+  footer .pieDePagina a:hover {
     color: rgb(167, 84, 7);
     background-color: black;
   }
@@ -953,14 +979,14 @@
     flex-direction: column;
     align-items: center;
   }
-  form {
+  .bloqueFormu form {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     width: 100%;
   }
-  .input1 {
+  .bloqueFormu form .input1 {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -968,18 +994,18 @@
     align-items: center;
     margin-top: 3rem;
   }
-  .input1 label {
+  .bloqueFormu form .input1 label {
     font-size: 4rem;
     color: rgb(167, 84, 7);
     background-color: black;
     margin-bottom: 2rem;
   }
-  .input1 input {
+  .bloqueFormu form .input1 input {
     width: 60%;
     height: 3rem;
     border: solid black 3px;
   }
-  .input2 {
+  .bloqueFormu form .input2 {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -987,18 +1013,18 @@
     align-items: center;
     margin-top: 3rem;
   }
-  .input2 label {
+  .bloqueFormu form .input2 label {
     font-size: 4rem;
     color: rgb(167, 84, 7);
     background-color: black;
     margin-bottom: 2rem;
   }
-  .input2 input {
+  .bloqueFormu form .input2 input {
     width: 60%;
     height: 3rem;
     border: solid black 3px;
   }
-  .input3 {
+  .bloqueFormu form .input3 {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -1006,18 +1032,18 @@
     align-items: center;
     margin-top: 3rem;
   }
-  .input3 label {
+  .bloqueFormu form .input3 label {
     font-size: 4rem;
     color: rgb(167, 84, 7);
     background-color: black;
     margin-bottom: 2rem;
   }
-  .input3 input {
+  .bloqueFormu form .input3 input {
     width: 60%;
     height: 3rem;
     border: solid black 3px;
   }
-  .input4 {
+  .bloqueFormu form .input4 {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -1025,24 +1051,24 @@
     align-items: center;
     margin-top: 3rem;
   }
-  .input4 label {
+  .bloqueFormu form .input4 label {
     font-size: 4rem;
     color: rgb(167, 84, 7);
     background-color: black;
     margin-bottom: 2rem;
   }
-  .input4 textarea {
+  .bloqueFormu form .input4 textarea {
     width: 60%;
     height: 15rem;
     border: solid black 3px;
   }
-  .buttonContacto {
+  .bloqueFormu form .input4 .buttonContacto {
     display: flex;
     width: 100%;
     justify-content: center;
     align-content: center;
   }
-  .buttonContacto button {
+  .bloqueFormu form .input4 .buttonContacto button {
     margin-top: 3rem;
     width: 15%;
     height: 8rem;
@@ -1070,13 +1096,29 @@
     justify-content: center;
     flex-direction: column;
   }
-  .segundoTitulo {
+  .imagenesProdContenedor h3 {
     color: rgb(167, 84, 7);
     padding: 0;
     background-color: black;
     font-size: 3rem;
     margin-bottom: 3rem;
     margin-top: 3rem;
+  }
+  .imagenesProdContenedor img {
+    width: 40rem;
+    height: 40rem;
+  }
+  .sectionReparaciones h3 {
+    color: rgb(167, 84, 7);
+    padding: 0;
+    background-color: black;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+  .sectionReparaciones img {
+    width: 30rem;
+    height: 30rem;
   }
   .videosClientes {
     display: flex;
@@ -1092,17 +1134,17 @@
     background-color: black;
     margin-bottom: 3rem;
   }
-  .ukeYGuitarra {
+  .videosClientes .ukeYGuitarra {
     display: flex;
     justify-content: center;
   }
-  .videoUke {
+  .videosClientes .ukeYGuitarra .videoUke {
     height: 30rem;
     width: 50%;
     padding-left: 1rem;
     padding-right: 2rem;
   }
-  .videoGuitarra {
+  .videosClientes .ukeYGuitarra .videoGuitarra {
     height: 30rem;
     width: 50%;
     padding-right: 1rem;
@@ -1122,22 +1164,22 @@
     grid-template-areas: "bannerPrincipal tituloPrincipal";
     border: solid 1px white;
   }
-  .principal {
+  header .principal {
     display: flex;
   }
-  .bannerPrincipal {
+  header .principal .bannerPrincipal {
     display: flex;
     grid-area: bannerPrincipal;
     height: 8rem;
     width: 8rem;
   }
-  .logo {
+  header .principal .bannerPrincipal .logo {
     margin-top: 0;
     margin-left: 0;
     height: 8rem;
     width: 8rem;
   }
-  .tituloPrincipal {
+  header .principal .tituloPrincipal {
     display: flex;
     grid-area: tituloPrincipal;
     justify-content: center;
@@ -1150,7 +1192,7 @@
     display: flex;
     flex-direction: column;
   }
-  .primeraSeccion {
+  .secundario .primeraSeccion {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
@@ -1159,7 +1201,7 @@
     align-items: center;
     justify-items: center;
   }
-  .primeraSeccion {
+  .secundario .primeraSeccion {
     grid-area: primeraSeccion;
   }
   footer {
@@ -1168,14 +1210,14 @@
     height: 8rem;
     align-items: center;
   }
-  .pieDePagina a {
+  footer .pieDePagina a {
     padding-left: 5rem;
     padding-right: 5rem;
     font-size: 2rem;
     /*padding: 6rem;*/
     color: white;
   }
-  .pieDePagina a:hover {
+  footer .pieDePagina a:hover {
     color: rgb(167, 84, 7);
     background-color: black;
   }
@@ -1185,14 +1227,14 @@
     flex-direction: column;
     align-items: center;
   }
-  form {
+  .bloqueFormu form {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     width: 100%;
   }
-  .input1 {
+  .bloqueFormu form .input1 {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -1200,18 +1242,18 @@
     align-items: center;
     margin-top: 3rem;
   }
-  .input1 label {
+  .bloqueFormu form .input1 label {
     font-size: 4rem;
     color: rgb(167, 84, 7);
     background-color: black;
     margin-bottom: 2rem;
   }
-  .input1 input {
+  .bloqueFormu form .input1 input {
     width: 60%;
     height: 3rem;
     border: solid black 3px;
   }
-  .input2 {
+  .bloqueFormu form .input2 {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -1219,18 +1261,18 @@
     align-items: center;
     margin-top: 3rem;
   }
-  .input2 label {
+  .bloqueFormu form .input2 label {
     font-size: 4rem;
     color: rgb(167, 84, 7);
     background-color: black;
     margin-bottom: 2rem;
   }
-  .input2 input {
+  .bloqueFormu form .input2 input {
     width: 60%;
     height: 3rem;
     border: solid black 3px;
   }
-  .input3 {
+  .bloqueFormu form .input3 {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -1238,18 +1280,18 @@
     align-items: center;
     margin-top: 3rem;
   }
-  .input3 label {
+  .bloqueFormu form .input3 label {
     font-size: 4rem;
     color: rgb(167, 84, 7);
     background-color: black;
     margin-bottom: 2rem;
   }
-  .input3 input {
+  .bloqueFormu form .input3 input {
     width: 60%;
     height: 3rem;
     border: solid black 3px;
   }
-  .input4 {
+  .bloqueFormu form .input4 {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -1257,24 +1299,24 @@
     align-items: center;
     margin-top: 3rem;
   }
-  .input4 label {
+  .bloqueFormu form .input4 label {
     font-size: 4rem;
     color: rgb(167, 84, 7);
     background-color: black;
     margin-bottom: 2rem;
   }
-  .input4 textarea {
+  .bloqueFormu form .input4 textarea {
     width: 60%;
     height: 15rem;
     border: solid black 3px;
   }
-  .buttonContacto {
+  .bloqueFormu form .input4 .buttonContacto {
     display: flex;
     width: 100%;
     justify-content: center;
     align-content: center;
   }
-  .buttonContacto button {
+  .bloqueFormu form .input4 .buttonContacto button {
     margin-top: 3rem;
     width: 15%;
     height: 8rem;
@@ -1302,7 +1344,7 @@
     justify-content: center;
     flex-direction: column;
   }
-  .segundoTitulo {
+  .imagenesProdContenedor h3 {
     color: rgb(167, 84, 7);
     padding: 0;
     background-color: black;
@@ -1310,6 +1352,36 @@
     margin-bottom: 3rem;
     margin-top: 3rem;
   }
+}
+.videosClientes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.videosClientes h3 {
+  color: rgb(167, 84, 7);
+  padding: 0;
+  margin: 0;
+  font-size: 3rem;
+  background-color: black;
+  margin-bottom: 3rem;
+}
+.videosClientes .ukeYGuitarra {
+  display: flex;
+  justify-content: center;
+}
+.videosClientes .ukeYGuitarra .videoUke {
+  height: 30rem;
+  width: 50%;
+  padding-left: 1rem;
+  padding-right: 2rem;
+}
+.videosClientes .ukeYGuitarra .videoGuitarra {
+  height: 30rem;
+  width: 50%;
+  padding-right: 1rem;
+  padding-left: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
