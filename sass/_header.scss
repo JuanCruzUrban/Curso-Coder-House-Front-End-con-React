@@ -1,0 +1,305 @@
+@media (min-width: 320px) {
+
+    body {
+  
+ 
+      background-image: url("../img/imagenesProductos/images/fotofondo.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+  
+  
+    }
+
+    header {
+
+        display: flex;
+    
+        .principal {
+    
+          display: flex;
+          width: 100%;
+    
+          justify-content: center;
+    
+          .bannerPrincipal {
+    
+            display: none;
+            height: 5rem;
+            width: 5rem;
+            justify-content: center;
+            align-content: center;
+    
+            .logo {
+    
+              margin: 0;
+              height: 100%;
+              width: 100%;
+    
+            }
+    
+          }
+    
+          .tituloPrincipal h1 {
+    
+            color: $colordelh1;
+            font-size: 4rem;
+    
+          }
+    
+        }
+    
+      }
+
+    }
+
+    @media (min-width: 600px) {
+
+        body {
+      
+      
+          background-image: url("../img/imagenesProductos/images/fotofondo.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+      
+      
+        }
+
+        header {
+
+            display: flex;
+        
+          
+        
+          .principal {
+        
+            display: flex;
+            width: 100%;
+        
+            justify-content: center;
+          }
+        
+          .bannerPrincipal {
+        
+            display: none;
+            height: 8rem;
+            width: 8rem;
+            justify-content: center;
+            align-content: center;
+          
+            .logo {
+        
+              margin: 0;
+              height: 100%;
+              width: 100%;
+          
+            }
+        
+            .tituloPrincipal {
+              display: flex;
+              justify-content: center;
+              align-content: center;
+              width: 100%;
+          
+          h1{
+        
+              color: $colordelh1;
+              font-size: 6rem;
+            
+          }
+        
+          }
+        
+          }
+          
+         }
+
+         
+
+        }
+
+        @media (min-width: 768px) {
+
+            body {
+          
+          
+              background-image: url("../img/imagenesProductos/images/fotofondo.jpg");
+              background-repeat: no-repeat;
+              background-size: cover;
+          
+          
+            }
+
+            header {
+
+                display: flex;
+            
+              
+            
+              .principal {
+            
+                display: flex;
+                width: 100%;
+            
+                justify-content: center;
+              
+            
+              .bannerPrincipal {
+            
+                display: none;
+                height: 8rem;
+                width: 8rem;
+                justify-content: center;
+                align-content: center;
+              
+            
+              .logo {
+            
+                margin: 0;
+                height: 100%;
+                width: 100%;
+            
+              }
+            
+            
+              .tituloPrincipal {
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                width: 100%;
+            
+            
+            
+               h1 {
+            
+                color: $colordelh1;
+                font-size: 6rem;
+              }
+            }
+            }
+            }
+            }
+        }
+
+        @media (min-width: 1024px) {
+
+
+            body {
+          
+          
+              background-image: url("../img/imagenesProductos/images/fotofondo.jpg");
+              background-repeat: no-repeat;
+              background-size: cover;
+          
+          
+            }
+          
+            //header
+          
+            header {
+          
+              display: flex;
+          
+            
+          
+            .principal {
+          
+              display: flex;
+              width: 100%;
+              align-items: center;
+            
+          
+            .bannerPrincipal {
+          
+              display: flex;
+              height: 8rem;
+              width: 8rem;
+              justify-content: center;
+              align-content: center;
+            
+          
+            .logo {
+          
+              margin: 0;
+              height: 100%;
+              width: 100%;
+              visibility: visible;
+            }
+          }
+            .tituloPrincipal {
+              display: flex;
+              justify-content: center;
+              align-content: center;
+              width: 100%;
+              font-size: 7rem;
+          
+            
+          
+            h1 {
+          
+              color: $colordelh1;
+              font-size: 7rem;
+            }
+          }
+          }
+          }
+        }
+
+        @media (min-width: 1200px) {
+
+            body {
+          
+              background-image: url("../img/imagenesProductos/images/fotofondo.jpg");
+              background-repeat: no-repeat;
+              background-size: cover;
+          
+            }
+          
+          
+          //header
+          
+            header {
+          
+              display: grid;
+              grid-template-rows: 1fr;
+              grid-template-columns: 1fr;
+              grid-template-areas: "bannerPrincipal tituloPrincipal";
+              border: solid 1px white;
+            
+          
+            .principal {
+          
+              display: flex;
+          
+          
+            
+          
+            .bannerPrincipal {
+              display: flex;
+              grid-area: bannerPrincipal;
+              height: 8rem;
+              width: 8rem;
+           
+              .logo {
+                margin-top: 0;
+                margin-left: 0;
+                height: 8rem;
+                width: 8rem;
+            
+              }
+           
+            }
+          
+            .tituloPrincipal {
+              display: flex;
+              grid-area: tituloPrincipal;
+              justify-content: center;
+              align-content: center;
+              font-size: 3rem;
+              color: $colordelh1;
+              width: 60rem;
+          
+            }
+          }
+          
+          }
+        } 

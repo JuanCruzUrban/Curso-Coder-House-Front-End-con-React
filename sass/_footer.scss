@@ -1,0 +1,165 @@
+@media (min-width: 320px){
+
+//pie de pagina
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 8rem;
+    align-items: center;
+
+   .pieDePagina a {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+
+    color: white
+  } 
+    
+    
+  .pieDePagina a:hover{
+  
+    color: rgb(167, 84, 7) ;
+    background-color: black;
+  
+  }
+}
+
+
+}
+
+
+@media (min-width: 600px){
+
+    //pie de pagina
+
+  footer {
+    display: flex;
+    justify-content: center;
+    height: 8rem;
+    align-items: center;
+
+  
+
+   .pieDePagina a {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 2rem;
+
+    color: white
+  }
+
+
+  .pieDePagina a:hover {
+
+    color: rgb(167, 84, 7);
+    background-color: black;
+
+  }
+
+}
+
+}
+
+
+@media (min-width: 768px){
+
+    //pie de pagina
+
+  footer {
+    display: flex;
+    justify-content: center;
+    height: 8rem;
+    align-items: center;
+
+  
+
+
+
+  .pieDePagina a {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 2rem;
+
+    color: white
+  }
+
+
+  .pieDePagina a:hover {
+
+    color: rgb(167, 84, 7);
+    background-color: black;
+
+  }
+
+}
+
+}
+
+
+@media (min-width: 1024px){
+
+    footer {
+        display: flex;
+        justify-content: center;
+        height: 8rem;
+        align-items: center;
+    
+    
+      .pieDePagina a {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        font-size: 2rem;
+        /*padding: 6rem;*/
+        color: white
+          /*border: solid 1px black;*/
+    
+      }
+    
+    
+      .pieDePagina a:hover {
+    
+        color: rgb(167, 84, 7);
+        background-color: black;
+    
+      }
+    }
+
+}
+
+
+@media (min-width: 1200px){
+
+    // pie de pagina
+
+  footer {
+    display: flex;
+    justify-content: center;
+    height: 8rem;
+    align-items: center;
+
+  
+
+
+
+  .pieDePagina a {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-size: 2rem;
+    /*padding: 6rem;*/
+    color: white
+      /*border: solid 1px black;*/
+
+  }
+
+
+  .pieDePagina a:hover {
+
+    color: rgb(167, 84, 7);
+    background-color: black;
+
+  }
+
+}
+
+}
