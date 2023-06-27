@@ -104,6 +104,27 @@
 
 //formulario
 
+.imaContacto{
+
+  display: flex;
+  margin-top: 4rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+  
+  img {
+
+    height: 20rem;
+width: 20rem;
+  }
+
+p{
+
+  color: $colordelp;
+  font-size: 2rem;
+}
+
+}
 
 .bloqueFormu {
 
@@ -359,6 +380,29 @@ height: 20rem;
   
   }
 
+  .videoLaud{
+    flex-direction: column;
+      display: flex;
+    margin-top: 2rem;
+     justify-content: center;
+     align-items: center;
+    
+     p {
+    
+      color:$colordelp;
+      padding: 1rem;
+      font-size: 1.5rem;
+    
+    }
+    
+    video{
+    
+      height: 20rem;
+      width: 80%;
+    
+    }
+    
+    }
 
   .videosClientes {
 
@@ -368,16 +412,7 @@ height: 20rem;
     margin-top: 3rem;
   
 
-  .videosClientes h3 {
-
-    color: $colordelh2yh3;
-    padding: 0;
-    margin: 0;
-    font-size: 2rem;
-    background-color:$backGroundTitulos;
-
-
-  }
+  
 
   .ukeYGuitarra {
 
@@ -517,6 +552,28 @@ width: auto;
 }
 
 //formulario
+
+.imaContacto{
+
+  display: flex;
+  margin-top: 4rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+  
+  img {
+
+    height: 20rem;
+width: 20rem;
+  }
+
+p{
+
+  color: $colordelp;
+  font-size: 2rem;
+}
+
+}
 
 .bloqueFormu {
 
@@ -736,7 +793,29 @@ width: auto;
 
 }
 
-
+.videoLaud{
+  flex-direction: column;
+    display: flex;
+  margin-top: 2rem;
+   justify-content: center;
+   align-items: center;
+  
+   p {
+  
+    color:$colordelp;
+    padding: 1rem;
+    font-size: 1.5rem;
+  
+  }
+  
+  video{
+  
+    height: 20rem;
+    width: 80%;
+  
+  }
+  
+  }
 
 .videosClientes {
 
@@ -746,16 +825,7 @@ width: auto;
     margin-top: 2rem;
   
 
-   h3 {
-
-    color: $colordelh2yh3;
-    padding: 0;
-    margin: 0;
-    font-size: 2rem;
-    background-color: $backGroundTitulos;
-    margin-bottom: 3rem;
-
-  }
+   
 
   .ukeYGuitarra {
 
@@ -893,6 +963,28 @@ p {
 }
 
 //formulario
+
+.imaContacto{
+
+  display: flex;
+  margin-top: 4rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+  
+  img {
+
+    height: 30rem;
+width: 20rem;
+  }
+
+p{
+
+  color: $colordelp;
+  font-size: 2rem;
+}
+
+}
 
 .bloqueFormu {
 
@@ -1105,6 +1197,28 @@ p {
 
 }
 
+.videoLaud{
+flex-direction: row;
+  display: flex;
+margin-top: 5rem;
+ 
+ 
+p {
+
+  color:$colordelp;
+  padding: 1rem;
+  font-size: 2rem;
+
+}
+
+video{
+
+  height: 20rem;
+  width: 80%;
+
+}
+
+}
 
   .videosClientes {
 
@@ -1114,16 +1228,7 @@ p {
     margin-top: 2rem;
   
 
-   h3 {
-
-    color:$colordelh2yh3;
-    padding: 0;
-    margin: 0;
-    font-size: 2rem;
-    background-color: $backGroundTitulos ;
-    margin-bottom: 3rem;
-
-  }
+   
 
   .ukeYGuitarra {
 
@@ -1262,6 +1367,26 @@ padding-right: 1rem;
 }
 
 //formulario
+
+.imaContacto{
+
+  display: flex;
+  margin-top: 4rem;
+  
+  
+  img {
+
+    height: 30rem;
+width: 20rem;
+  }
+
+p{
+
+  color: $colordelp;
+  font-size: 2.5rem;
+}
+
+}
 
 
 .bloqueFormu {
@@ -1502,6 +1627,27 @@ video{
 
 }
 
+.videoLaud{
+
+  display: flex;
+margin-top: 5rem;
+ p {
+
+  color:$colordelp;
+  padding: 1rem;
+  font-size: 2rem;
+
+}
+
+video{
+
+  height: 30rem;
+  width: 100%;
+padding-right: 2rem;
+}
+
+}
+
   .videosClientes {
 
     display: flex;
@@ -1510,16 +1656,7 @@ video{
     margin-top: 2rem;
   
 
-   h3 {
-
-    color: $colordelh2yh3;
-    padding: 0;
-    margin: 0;
-    font-size: 3rem;
-    background-color:$backGroundTitulos;
-    margin-bottom: 3rem;
-
-  }
+   
 
   .ukeYGuitarra {
 
@@ -1643,13 +1780,33 @@ padding-right: 1rem;
 }
 }
 
+.imaContacto{
+
+  display: flex;
+  margin-top: 4rem;
+  
+  
+  img {
+
+    height: 30rem;
+width: 20rem;
+  }
+
+p{
+
+  color: $colordelp;
+  font-size: 2.5rem;
+}
+
+}
+
 .bloqueFormu {
 
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-
+margin-top: 3rem;
   
 
   form {
@@ -1859,6 +2016,27 @@ video{
 
 }
 
+.videoLaud{
+
+  display: flex;
+margin-top: 5rem;
+ p {
+
+  color:$colordelp;
+  padding: 1rem;
+  font-size: 2rem;
+
+}
+
+video{
+
+  height: 30rem;
+  width: 100%;
+padding-right: 2rem;
+}
+
+}
+
 .videosClientes {
 
   display: flex;
@@ -1867,16 +2045,7 @@ video{
   margin-top: 2rem;
 
 
- h3 {
-
-  color: $colordelh2yh3;
-  padding: 0;
-  margin: 0;
-  font-size: 3rem;
-  background-color:$backGroundTitulos;
-  margin-bottom: 3rem;
-
-}
+ 
 
 .ukeYGuitarra {
 

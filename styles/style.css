@@ -14,6 +14,65 @@
   text-align: center;
 }
 @media (min-width: 320px) {
+  .secundario h2 {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 600px) {
+  .secundario h2 {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .secundario h2 {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  .secundario h2 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  .secundario h2 {
+    font-size: 3rem;
+  }
+}
+
+.videosClientes h3 {
+  color: rgb(167, 84, 7);
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  text-align: center;
+}
+@media (min-width: 320px) {
+  .videosClientes h3 {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 600px) {
+  .videosClientes h3 {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .videosClientes h3 {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  .videosClientes h3 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  .videosClientes h3 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 320px) {
   body {
     background-image: url("../img/imagenesProductos/images/fotofondo.jpg");
     background-repeat: no-repeat;
@@ -261,6 +320,21 @@
     height: 20rem;
     width: auto;
   }
+  .imaContacto {
+    display: flex;
+    margin-top: 4rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .imaContacto img {
+    height: 20rem;
+    width: 20rem;
+  }
+  .imaContacto p {
+    color: rgba(245, 245, 220, 0.658);
+    font-size: 2rem;
+  }
   .bloqueFormu {
     display: flex;
     justify-content: center;
@@ -438,18 +512,27 @@
     padding-right: 2rem;
     margin-top: 1rem;
   }
+  .videoLaud {
+    flex-direction: column;
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .videoLaud p {
+    color: rgba(245, 245, 220, 0.658);
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  .videoLaud video {
+    height: 20rem;
+    width: 80%;
+  }
   .videosClientes {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 3rem;
-  }
-  .videosClientes .videosClientes h3 {
-    color: rgb(167, 84, 7);
-    padding: 0;
-    margin: 0;
-    font-size: 2rem;
-    background-color: black;
   }
   .videosClientes .ukeYGuitarra {
     display: flex;
@@ -537,6 +620,21 @@
   .videoDelIndex video {
     height: 30rem;
     width: auto;
+  }
+  .imaContacto {
+    display: flex;
+    margin-top: 4rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .imaContacto img {
+    height: 20rem;
+    width: 20rem;
+  }
+  .imaContacto p {
+    color: rgba(245, 245, 220, 0.658);
+    font-size: 2rem;
   }
   .bloqueFormu {
     display: flex;
@@ -690,19 +788,27 @@
     padding-right: 2rem;
     margin-top: 1rem;
   }
+  .videoLaud {
+    flex-direction: column;
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .videoLaud p {
+    color: rgba(245, 245, 220, 0.658);
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  .videoLaud video {
+    height: 20rem;
+    width: 80%;
+  }
   .videosClientes {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 2rem;
-  }
-  .videosClientes h3 {
-    color: rgb(167, 84, 7);
-    padding: 0;
-    margin: 0;
-    font-size: 2rem;
-    background-color: black;
-    margin-bottom: 3rem;
   }
   .videosClientes .ukeYGuitarra {
     display: flex;
@@ -788,6 +894,21 @@
   }
   .videoDelIndex video {
     height: 30rem;
+  }
+  .imaContacto {
+    display: flex;
+    margin-top: 4rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .imaContacto img {
+    height: 30rem;
+    width: 20rem;
+  }
+  .imaContacto p {
+    color: rgba(245, 245, 220, 0.658);
+    font-size: 2rem;
   }
   .bloqueFormu {
     display: flex;
@@ -936,19 +1057,25 @@
     padding-left: 1rem;
     padding-right: 2rem;
   }
+  .videoLaud {
+    flex-direction: row;
+    display: flex;
+    margin-top: 5rem;
+  }
+  .videoLaud p {
+    color: rgba(245, 245, 220, 0.658);
+    padding: 1rem;
+    font-size: 2rem;
+  }
+  .videoLaud video {
+    height: 20rem;
+    width: 80%;
+  }
   .videosClientes {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 2rem;
-  }
-  .videosClientes h3 {
-    color: rgb(167, 84, 7);
-    padding: 0;
-    margin: 0;
-    font-size: 2rem;
-    background-color: black;
-    margin-bottom: 3rem;
   }
   .videosClientes .ukeYGuitarra {
     display: flex;
@@ -1034,6 +1161,18 @@
   .terciario .resoluDesktop .videoDelIndex video {
     height: 30rem;
     padding-right: 1rem;
+  }
+  .imaContacto {
+    display: flex;
+    margin-top: 4rem;
+  }
+  .imaContacto img {
+    height: 30rem;
+    width: 20rem;
+  }
+  .imaContacto p {
+    color: rgba(245, 245, 220, 0.658);
+    font-size: 2.5rem;
   }
   .bloqueFormu {
     display: flex;
@@ -1197,19 +1336,25 @@
     padding-left: 1rem;
     padding-right: 2rem;
   }
+  .videoLaud {
+    display: flex;
+    margin-top: 5rem;
+  }
+  .videoLaud p {
+    color: rgba(245, 245, 220, 0.658);
+    padding: 1rem;
+    font-size: 2rem;
+  }
+  .videoLaud video {
+    height: 30rem;
+    width: 100%;
+    padding-right: 2rem;
+  }
   .videosClientes {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 2rem;
-  }
-  .videosClientes h3 {
-    color: rgb(167, 84, 7);
-    padding: 0;
-    margin: 0;
-    font-size: 3rem;
-    background-color: black;
-    margin-bottom: 3rem;
   }
   .videosClientes .ukeYGuitarra {
     display: flex;
@@ -1284,11 +1429,24 @@
     height: 30rem;
     padding-right: 1rem;
   }
+  .imaContacto {
+    display: flex;
+    margin-top: 4rem;
+  }
+  .imaContacto img {
+    height: 30rem;
+    width: 20rem;
+  }
+  .imaContacto p {
+    color: rgba(245, 245, 220, 0.658);
+    font-size: 2.5rem;
+  }
   .bloqueFormu {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-top: 3rem;
   }
   .bloqueFormu form {
     display: flex;
@@ -1430,19 +1588,25 @@
     padding-left: 1rem;
     padding-right: 2rem;
   }
+  .videoLaud {
+    display: flex;
+    margin-top: 5rem;
+  }
+  .videoLaud p {
+    color: rgba(245, 245, 220, 0.658);
+    padding: 1rem;
+    font-size: 2rem;
+  }
+  .videoLaud video {
+    height: 30rem;
+    width: 100%;
+    padding-right: 2rem;
+  }
   .videosClientes {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 2rem;
-  }
-  .videosClientes h3 {
-    color: rgb(167, 84, 7);
-    padding: 0;
-    margin: 0;
-    font-size: 3rem;
-    background-color: black;
-    margin-bottom: 3rem;
   }
   .videosClientes .ukeYGuitarra {
     display: flex;
