@@ -311,29 +311,21 @@
     width: 15rem;
     height: 20rem;
   }
-  .videoDelIndex {
+  .videoDelContacto {
     display: flex;
     justify-content: center;
     margin-top: 3rem;
-  }
-  .videoDelIndex video {
-    height: 20rem;
-    width: auto;
-  }
-  .imaContacto {
-    display: flex;
-    margin-top: 4rem;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
-  .imaContacto img {
-    height: 20rem;
-    width: 20rem;
-  }
-  .imaContacto p {
+  .videoDelContacto p {
+    padding-left: 1rem;
     color: rgba(245, 245, 220, 0.658);
-    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+  .videoDelContacto video {
+    height: 20rem;
+    padding-right: 1rem;
   }
   .bloqueFormu {
     display: flex;
@@ -612,29 +604,21 @@
     width: 30rem;
     height: 20rem;
   }
-  .videoDelIndex {
+  .videoDelContacto {
     display: flex;
     justify-content: center;
     margin-top: 3rem;
-  }
-  .videoDelIndex video {
-    height: 30rem;
-    width: auto;
-  }
-  .imaContacto {
-    display: flex;
-    margin-top: 4rem;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
-  .imaContacto img {
-    height: 20rem;
-    width: 20rem;
-  }
-  .imaContacto p {
+  .videoDelContacto p {
+    padding-left: 1rem;
     color: rgba(245, 245, 220, 0.658);
-    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+  .videoDelContacto video {
+    height: 20rem;
+    padding-right: 1rem;
   }
   .bloqueFormu {
     display: flex;
@@ -887,28 +871,21 @@
     width: 30rem;
     height: 20rem;
   }
-  .videoDelIndex {
+  .videoDelContacto {
     display: flex;
     justify-content: center;
     margin-top: 3rem;
-  }
-  .videoDelIndex video {
-    height: 30rem;
-  }
-  .imaContacto {
-    display: flex;
-    margin-top: 4rem;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    flex-direction: row;
   }
-  .imaContacto img {
-    height: 30rem;
-    width: 20rem;
-  }
-  .imaContacto p {
+  .videoDelContacto p {
+    padding-left: 1rem;
     color: rgba(245, 245, 220, 0.658);
-    font-size: 2rem;
+    font-size: 2.5rem;
+  }
+  .videoDelContacto video {
+    height: 30rem;
+    padding-right: 1rem;
   }
   .bloqueFormu {
     display: flex;
@@ -1153,26 +1130,21 @@
     width: 40rem;
     height: 20rem;
   }
-  .terciario .resoluDesktop .videoDelIndex {
+  .videoDelContacto {
     display: flex;
     justify-content: center;
     margin-top: 3rem;
+    align-items: center;
+    flex-direction: row;
   }
-  .terciario .resoluDesktop .videoDelIndex video {
-    height: 30rem;
-    padding-right: 1rem;
-  }
-  .imaContacto {
-    display: flex;
-    margin-top: 4rem;
-  }
-  .imaContacto img {
-    height: 30rem;
-    width: 20rem;
-  }
-  .imaContacto p {
+  .videoDelContacto p {
+    padding-left: 1rem;
     color: rgba(245, 245, 220, 0.658);
     font-size: 2.5rem;
+  }
+  .videoDelContacto video {
+    height: 30rem;
+    padding-right: 1rem;
   }
   .bloqueFormu {
     display: flex;
@@ -1420,26 +1392,21 @@
     width: 40rem;
     height: 20rem;
   }
-  .terciario .resoluDesktop .videoDelIndex {
+  .videoDelContacto {
     display: flex;
     justify-content: center;
     margin-top: 3rem;
+    align-items: center;
+    flex-direction: row;
   }
-  .terciario .resoluDesktop .videoDelIndex video {
-    height: 30rem;
-    padding-right: 1rem;
-  }
-  .imaContacto {
-    display: flex;
-    margin-top: 4rem;
-  }
-  .imaContacto img {
-    height: 30rem;
-    width: 20rem;
-  }
-  .imaContacto p {
+  .videoDelContacto p {
+    padding-left: 1rem;
     color: rgba(245, 245, 220, 0.658);
     font-size: 2.5rem;
+  }
+  .videoDelContacto video {
+    height: 30rem;
+    padding-right: 1rem;
   }
   .bloqueFormu {
     display: flex;

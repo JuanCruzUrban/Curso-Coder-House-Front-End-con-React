@@ -86,45 +86,31 @@
 }
 }
   
-//video del index
+///video del contacto
 
-.videoDelIndex {
+.videoDelContacto {
 
-    display: flex;
-    justify-content: center;
-    margin-top: 3rem;
-  
-
-  video {
-
-    height: 20rem;
-    width: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+align-items: center;
+  flex-direction: column;
+p{
+padding-left: 1rem;
+    color: $colordelp;
+    font-size: 1.5rem;
   }
+
+video {
+
+  height: 20rem;
+padding-right: 1rem;
+
+}
+
 }
 
 //formulario
-
-.imaContacto{
-
-  display: flex;
-  margin-top: 4rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center ;
-  
-  img {
-
-    height: 20rem;
-width: 20rem;
-  }
-
-p{
-
-  color: $colordelp;
-  font-size: 2rem;
-}
-
-}
 
 .bloqueFormu {
 
@@ -533,47 +519,31 @@ height: 20rem;
 }
 }
 
-//video del taller
+///video del contacto
 
-  .videoDelIndex {
+.videoDelContacto {
 
-    display: flex;
-    justify-content: center;
-    margin-top: 3rem;
-  
-
-  video {
-
-    height: 30rem;
-width: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+align-items: center;
+  flex-direction: column;
+p{
+padding-left: 1rem;
+    color: $colordelp;
+    font-size: 1.5rem;
   }
 
+video {
+
+  height: 20rem;
+padding-right: 1rem;
+
+}
 
 }
 
 //formulario
-
-.imaContacto{
-
-  display: flex;
-  margin-top: 4rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center ;
-  
-  img {
-
-    height: 20rem;
-width: 20rem;
-  }
-
-p{
-
-  color: $colordelp;
-  font-size: 2rem;
-}
-
-}
 
 .bloqueFormu {
 
@@ -946,45 +916,32 @@ p {
 }
 }
 
-//video del index
 
-.videoDelIndex {
 
-    display: flex;
-    justify-content: center;
-    margin-top: 3rem;
-  
+//video del contacto
 
-  video {
-
-    height: 30rem;
-
-  }
-}
-
-//formulario
-
-.imaContacto{
+.videoDelContacto {
 
   display: flex;
-  margin-top: 4rem;
-  flex-direction: column;
   justify-content: center;
-  align-items: center ;
-  
-  img {
-
-    height: 30rem;
-width: 20rem;
+  margin-top: 3rem;
+align-items: center;
+flex-direction: row; 
+p{
+padding-left: 1rem;
+    color: $colordelp;
+    font-size: 2.5rem;
   }
 
-p{
+video {
 
-  color: $colordelp;
-  font-size: 2rem;
+  height: 30rem;
+padding-right: 1rem;
+
 }
 
 }
+
 
 .bloqueFormu {
 
@@ -1346,48 +1303,35 @@ video{
     height: 20rem;
   }
 }
+}
+}
+//video del contacto
 
-
-//video del index
-
-  .videoDelIndex {
+  .videoDelContacto {
 
     display: flex;
     justify-content: center;
     margin-top: 3rem;
-  
+  align-items: center;
+  flex-direction: row; 
+  p{
+padding-left: 1rem;
+      color: $colordelp;
+      font-size: 2.5rem;
+    }
 
   video {
 
     height: 30rem;
 padding-right: 1rem;
-  }
+  
 }
+
 }
-}
+
+
 
 //formulario
-
-.imaContacto{
-
-  display: flex;
-  margin-top: 4rem;
-  
-  
-  img {
-
-    height: 30rem;
-width: 20rem;
-  }
-
-p{
-
-  color: $colordelp;
-  font-size: 2.5rem;
-}
-
-}
-
 
 .bloqueFormu {
 
@@ -1760,46 +1704,33 @@ display: flex;
   height: 20rem;
 }
 }
-
-
-//video del index
-
-.videoDelIndex {
-
-  display: flex;
-  justify-content: center;
-  margin-top: 3rem;
-
-
-video {
-
-  height: 30rem;
-padding-right: 1rem;
 }
 }
-}
-}
+//video del contacto
 
-.imaContacto{
+  .videoDelContacto {
 
-  display: flex;
-  margin-top: 4rem;
-  
-  
-  img {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+  align-items: center;
+  flex-direction: row;  
+  p{
+padding-left: 1rem;
+      color: $colordelp;
+      font-size: 2.5rem;
+    }
+
+  video {
 
     height: 30rem;
-width: 20rem;
-  }
-
-p{
-
-  color: $colordelp;
-  font-size: 2.5rem;
+padding-right: 1rem;
+  
 }
 
 }
 
+//formulario
 .bloqueFormu {
 
     display: flex;
