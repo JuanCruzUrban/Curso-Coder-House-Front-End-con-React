@@ -1259,6 +1259,83 @@ video{
 }
 }
 
+//nuevas cajas
+
+.cajaIndex{
+
+   display: flex;
+justify-content: center;
+flex-direction: row;
+align-items: center;
+
+
+.caja1{
+width: 50%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: black;
+
+
+.imgCaja1{
+
+  width: 20rem;
+  height: 20rem;
+
+}
+
+.textoCajaSup{
+
+  display: flex;
+justify-content: center;
+align-content: center;
+  p {
+    color:white;
+    padding: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+}
+
+.listaCajaInf{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  ul{
+
+li{
+font-size: 2rem;
+  color: white;
+
+a{
+cursor: pointer;
+  text-decoration: none;
+  color: white;
+
+}
+
+a:hover{
+  
+  color: rgb(167, 84, 7) ;
+  background-color: white;
+
+}
+}
+ 
+}
+
+}
+
+}
+
+}
+
+
+
 //ssgunda parte
 
 
@@ -1329,6 +1406,215 @@ padding-right: 1rem;
 
 }
 
+//titulo de page de inscripcion
+
+.tituloSecundarioInscripcion{
+margin-top: 3rem;
+  display: flex;
+justify-content: center;
+align-content: center ;
+
+h2{
+
+  padding: 0;
+    margin: 0;
+    font-size: 3rem;  
+color: $colordelh2yh3;
+background-color: $backGroundTitulos;
+text-align: center;
+}
+
+}
+
+.atencion{
+margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p{
+text-align: center;
+    color: white;
+font-size: 2rem;
+background-color: black;
+  }
+
+}
+
+//tituloH2PageMadera
+
+.tituloMadera{
+
+  margin-top: 3rem;
+  display: flex;
+justify-content: center;
+align-content: center ;
+
+h2{
+
+  padding: 0;
+    margin: 0;
+    font-size: 3rem;  
+color: $colordelh2yh3;
+background-color: $backGroundTitulos;
+text-align: center;
+}
+
+
+}
+
+.tituloPau{
+
+  margin-top: 3rem;
+  display: flex;
+  justify-content: baseline;
+margin-bottom: 2rem;
+  h3{
+
+    font-size: 2rem;
+    color: $colordelh2yh3;
+    background-color: $backGroundTitulos;
+
+  }
+
+}
+
+.maderaPau{
+
+  display: flex;
+
+img{
+
+  height: 30rem;
+  width: 20rem;
+padding-left: 1rem;
+}
+
+p{
+text-align: center;
+  color:$colordelp;
+    padding: 1rem;
+    font-size: 2rem;
+    
+
+}
+
+}
+
+.tituloGuayu{
+
+  margin-top: 3rem;
+  display: flex;
+  justify-content: baseline;
+margin-bottom: 2rem;
+  h3{
+
+    font-size: 2rem;
+    color: $colordelh2yh3;
+    background-color: $backGroundTitulos;
+
+  }
+
+}
+
+.maderaGuayubi{
+
+  display: flex;
+
+img{
+
+  height: 30rem;
+  width: 20rem;
+padding-left: 1rem;
+}
+
+p{
+text-align: center;
+  color:$colordelp;
+    padding: 1rem;
+    font-size: 2rem;
+    
+
+}
+
+}
+
+.tituloGuaya{
+
+  margin-top: 3rem;
+  display: flex;
+  justify-content: baseline;
+margin-bottom: 2rem;
+  h3{
+
+    font-size: 2rem;
+    color: $colordelh2yh3;
+    background-color: $backGroundTitulos;
+
+  }
+
+}
+
+.maderaGuayan{
+
+  display: flex;
+
+img{
+
+  height: 30rem;
+  width: 20rem;
+padding-left: 1rem;
+}
+
+p{
+text-align: center;
+  color:$colordelp;
+    padding: 1rem;
+    font-size: 2rem;
+    
+
+}
+
+}
+
+
+.tituloParais{
+
+  margin-top: 3rem;
+  display: flex;
+  justify-content: baseline;
+margin-bottom: 2rem;
+  h3{
+
+    font-size: 2rem;
+    color: $colordelh2yh3;
+    background-color: $backGroundTitulos;
+
+  }
+
+}
+
+.maderaparaiso{
+
+  display: flex;
+
+img{
+
+  height: 30rem;
+  width: 20rem;
+padding-left: 1rem;
+}
+
+p{
+text-align: center;
+  color:$colordelp;
+    padding: 1rem;
+    font-size: 2rem;
+    
+
+}
+
+}
 
 
 //formulario
