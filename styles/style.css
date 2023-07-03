@@ -283,6 +283,55 @@
     height: 25rem;
     width: 15rem;
   }
+  .cajaIndex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  .cajaIndex .caja1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 1rem;
+  }
+  .cajaIndex .caja1 .imgCaja1 {
+    width: 15rem;
+    height: 15rem;
+  }
+  .cajaIndex .caja1 .textoCajaSup {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .cajaIndex .caja1 .textoCajaSup p {
+    color: white;
+    padding: 0;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .cajaIndex .caja1 .listaCajaInf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cajaIndex .caja1 .listaCajaInf ul li {
+    font-size: 1.5rem;
+    color: white;
+  }
+  .cajaIndex .caja1 .listaCajaInf ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+  }
+  .cajaIndex .caja1 .listaCajaInf ul li a:hover {
+    color: rgb(167, 84, 7);
+    background-color: white;
+  }
   .terciario {
     display: flex;
     flex-direction: column;
@@ -310,6 +359,154 @@
   .terciario .segundaSeccion img {
     width: 15rem;
     height: 20rem;
+  }
+  .tituloSecundarioInscripcion {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .tituloSecundarioInscripcion h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+    color: rgb(167, 84, 7);
+    background-color: black;
+    text-align: center;
+  }
+  .atencion {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .atencion p {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    background-color: black;
+  }
+  .tituloMadera {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .tituloMadera h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+    color: rgb(167, 84, 7);
+    background-color: black;
+    text-align: center;
+  }
+  .tituloPau {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: baseline;
+    margin-bottom: 2rem;
+  }
+  .tituloPau h3 {
+    font-size: 1.5rem;
+    color: rgb(167, 84, 7);
+    background-color: black;
+  }
+  .maderaPau {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .maderaPau img {
+    height: 20rem;
+    width: 15rem;
+  }
+  .maderaPau p {
+    text-align: center;
+    color: rgba(245, 245, 220, 0.658);
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  .tituloGuayu {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: baseline;
+    margin-bottom: 2rem;
+  }
+  .tituloGuayu h3 {
+    font-size: 2rem;
+    color: rgb(167, 84, 7);
+    background-color: black;
+  }
+  .maderaGuayubi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .maderaGuayubi img {
+    height: 20rem;
+    width: 15rem;
+  }
+  .maderaGuayubi p {
+    text-align: center;
+    color: rgba(245, 245, 220, 0.658);
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  .tituloGuaya {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: baseline;
+    margin-bottom: 2rem;
+  }
+  .tituloGuaya h3 {
+    font-size: 2rem;
+    color: rgb(167, 84, 7);
+    background-color: black;
+  }
+  .maderaGuayan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .maderaGuayan img {
+    height: 20rem;
+    width: 15rem;
+  }
+  .maderaGuayan p {
+    text-align: center;
+    color: rgba(245, 245, 220, 0.658);
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  .tituloParais {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: baseline;
+    margin-bottom: 2rem;
+  }
+  .tituloParais h3 {
+    font-size: 2rem;
+    color: rgb(167, 84, 7);
+    background-color: black;
+  }
+  .maderaparaiso {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .maderaparaiso img {
+    height: 20rem;
+    width: 15rem;
+  }
+  .maderaparaiso p {
+    text-align: center;
+    color: rgba(245, 245, 220, 0.658);
+    padding: 1rem;
+    font-size: 1.5rem;
   }
   .videoDelContacto {
     display: flex;
@@ -576,6 +773,55 @@
     height: 25rem;
     width: 15rem;
   }
+  .cajaIndex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  .cajaIndex .caja1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 1rem;
+  }
+  .cajaIndex .caja1 .imgCaja1 {
+    width: 20rem;
+    height: 15rem;
+  }
+  .cajaIndex .caja1 .textoCajaSup {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .cajaIndex .caja1 .textoCajaSup p {
+    color: white;
+    padding: 0;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .cajaIndex .caja1 .listaCajaInf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cajaIndex .caja1 .listaCajaInf ul li {
+    font-size: 1.5rem;
+    color: white;
+  }
+  .cajaIndex .caja1 .listaCajaInf ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+  }
+  .cajaIndex .caja1 .listaCajaInf ul li a:hover {
+    color: rgb(167, 84, 7);
+    background-color: white;
+  }
   .terciario {
     display: flex;
     flex-direction: column;
@@ -603,6 +849,154 @@
   .terciario .segundaSeccion img {
     width: 30rem;
     height: 20rem;
+  }
+  .tituloSecundarioInscripcion {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .tituloSecundarioInscripcion h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+    color: rgb(167, 84, 7);
+    background-color: black;
+    text-align: center;
+  }
+  .atencion {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .atencion p {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    background-color: black;
+  }
+  .tituloMadera {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .tituloMadera h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+    color: rgb(167, 84, 7);
+    background-color: black;
+    text-align: center;
+  }
+  .tituloPau {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: baseline;
+    margin-bottom: 2rem;
+  }
+  .tituloPau h3 {
+    font-size: 1.5rem;
+    color: rgb(167, 84, 7);
+    background-color: black;
+  }
+  .maderaPau {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .maderaPau img {
+    height: 30rem;
+    width: 20rem;
+  }
+  .maderaPau p {
+    text-align: center;
+    color: rgba(245, 245, 220, 0.658);
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  .tituloGuayu {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: baseline;
+    margin-bottom: 2rem;
+  }
+  .tituloGuayu h3 {
+    font-size: 2rem;
+    color: rgb(167, 84, 7);
+    background-color: black;
+  }
+  .maderaGuayubi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .maderaGuayubi img {
+    height: 30rem;
+    width: 20rem;
+  }
+  .maderaGuayubi p {
+    text-align: center;
+    color: rgba(245, 245, 220, 0.658);
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  .tituloGuaya {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: baseline;
+    margin-bottom: 2rem;
+  }
+  .tituloGuaya h3 {
+    font-size: 2rem;
+    color: rgb(167, 84, 7);
+    background-color: black;
+  }
+  .maderaGuayan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .maderaGuayan img {
+    height: 30rem;
+    width: 20rem;
+  }
+  .maderaGuayan p {
+    text-align: center;
+    color: rgba(245, 245, 220, 0.658);
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  .tituloParais {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: baseline;
+    margin-bottom: 2rem;
+  }
+  .tituloParais h3 {
+    font-size: 2rem;
+    color: rgb(167, 84, 7);
+    background-color: black;
+  }
+  .maderaparaiso {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .maderaparaiso img {
+    height: 30rem;
+    width: 20rem;
+  }
+  .maderaparaiso p {
+    text-align: center;
+    color: rgba(245, 245, 220, 0.658);
+    padding: 1rem;
+    font-size: 1.5rem;
   }
   .videoDelContacto {
     display: flex;
@@ -844,6 +1238,53 @@
     height: 25rem;
     width: 15rem;
   }
+  .cajaIndex {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+  .cajaIndex .caja1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+  .cajaIndex .caja1 .imgCaja1 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .cajaIndex .caja1 .textoCajaSup {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .cajaIndex .caja1 .textoCajaSup p {
+    color: white;
+    padding: 0;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .cajaIndex .caja1 .listaCajaInf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cajaIndex .caja1 .listaCajaInf ul li {
+    font-size: 1.5rem;
+    color: white;
+  }
+  .cajaIndex .caja1 .listaCajaInf ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+  }
+  .cajaIndex .caja1 .listaCajaInf ul li a:hover {
+    color: rgb(167, 84, 7);
+    background-color: white;
+  }
   .terciario {
     display: flex;
     flex-direction: column;
@@ -870,6 +1311,146 @@
   .terciario .segundaSeccion img {
     width: 30rem;
     height: 20rem;
+  }
+  .tituloSecundarioInscripcion {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .tituloSecundarioInscripcion h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+    color: rgb(167, 84, 7);
+    background-color: black;
+    text-align: center;
+  }
+  .atencion {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .atencion p {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    background-color: black;
+  }
+  .tituloMadera {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .tituloMadera h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+    color: rgb(167, 84, 7);
+    background-color: black;
+    text-align: center;
+  }
+  .tituloPau {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: baseline;
+    margin-bottom: 2rem;
+  }
+  .tituloPau h3 {
+    font-size: 1.5rem;
+    color: rgb(167, 84, 7);
+    background-color: black;
+  }
+  .maderaPau {
+    display: flex;
+  }
+  .maderaPau img {
+    height: 30rem;
+    width: 20rem;
+    padding-left: 1rem;
+  }
+  .maderaPau p {
+    text-align: center;
+    color: rgba(245, 245, 220, 0.658);
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  .tituloGuayu {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: baseline;
+    margin-bottom: 2rem;
+  }
+  .tituloGuayu h3 {
+    font-size: 2rem;
+    color: rgb(167, 84, 7);
+    background-color: black;
+  }
+  .maderaGuayubi {
+    display: flex;
+  }
+  .maderaGuayubi img {
+    height: 30rem;
+    width: 20rem;
+    padding-left: 1rem;
+  }
+  .maderaGuayubi p {
+    text-align: center;
+    color: rgba(245, 245, 220, 0.658);
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  .tituloGuaya {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: baseline;
+    margin-bottom: 2rem;
+  }
+  .tituloGuaya h3 {
+    font-size: 2rem;
+    color: rgb(167, 84, 7);
+    background-color: black;
+  }
+  .maderaGuayan {
+    display: flex;
+  }
+  .maderaGuayan img {
+    height: 30rem;
+    width: 20rem;
+    padding-left: 1rem;
+  }
+  .maderaGuayan p {
+    text-align: center;
+    color: rgba(245, 245, 220, 0.658);
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  .tituloParais {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: baseline;
+    margin-bottom: 2rem;
+  }
+  .tituloParais h3 {
+    font-size: 2rem;
+    color: rgb(167, 84, 7);
+    background-color: black;
+  }
+  .maderaparaiso {
+    display: flex;
+  }
+  .maderaparaiso img {
+    height: 30rem;
+    width: 20rem;
+    padding-left: 1rem;
+  }
+  .maderaparaiso p {
+    text-align: center;
+    color: rgba(245, 245, 220, 0.658);
+    padding: 1rem;
+    font-size: 1.5rem;
   }
   .videoDelContacto {
     display: flex;
@@ -1177,22 +1758,6 @@
     width: 40rem;
     height: 20rem;
   }
-  .videoDelContacto {
-    display: flex;
-    justify-content: center;
-    margin-top: 3rem;
-    align-items: center;
-    flex-direction: row;
-  }
-  .videoDelContacto p {
-    padding-left: 1rem;
-    color: rgba(245, 245, 220, 0.658);
-    font-size: 2.5rem;
-  }
-  .videoDelContacto video {
-    height: 30rem;
-    padding-right: 1rem;
-  }
   .tituloSecundarioInscripcion {
     margin-top: 3rem;
     display: flex;
@@ -1332,6 +1897,22 @@
     color: rgba(245, 245, 220, 0.658);
     padding: 1rem;
     font-size: 2rem;
+  }
+  .videoDelContacto {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    align-items: center;
+    flex-direction: row;
+  }
+  .videoDelContacto p {
+    padding-left: 1rem;
+    color: rgba(245, 245, 220, 0.658);
+    font-size: 2.5rem;
+  }
+  .videoDelContacto video {
+    height: 30rem;
+    padding-right: 1rem;
   }
   .bloqueFormu {
     display: flex;
@@ -1549,6 +2130,53 @@
   .secundario .primeraSeccion {
     grid-area: primeraSeccion;
   }
+  .cajaIndex {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+  .cajaIndex .caja1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+  .cajaIndex .caja1 .imgCaja1 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .cajaIndex .caja1 .textoCajaSup {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .cajaIndex .caja1 .textoCajaSup p {
+    color: white;
+    padding: 0;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .cajaIndex .caja1 .listaCajaInf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cajaIndex .caja1 .listaCajaInf ul li {
+    font-size: 2rem;
+    color: white;
+  }
+  .cajaIndex .caja1 .listaCajaInf ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+  }
+  .cajaIndex .caja1 .listaCajaInf ul li a:hover {
+    color: rgb(167, 84, 7);
+    background-color: white;
+  }
   .terciario {
     display: flex;
     flex-direction: column;
@@ -1578,6 +2206,146 @@
   .terciario .resoluDesktop .segundaSeccion img {
     width: 40rem;
     height: 20rem;
+  }
+  .tituloSecundarioInscripcion {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .tituloSecundarioInscripcion h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 3rem;
+    color: rgb(167, 84, 7);
+    background-color: black;
+    text-align: center;
+  }
+  .atencion {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .atencion p {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    background-color: black;
+  }
+  .tituloMadera {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .tituloMadera h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 3rem;
+    color: rgb(167, 84, 7);
+    background-color: black;
+    text-align: center;
+  }
+  .tituloPau {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: baseline;
+    margin-bottom: 2rem;
+  }
+  .tituloPau h3 {
+    font-size: 2rem;
+    color: rgb(167, 84, 7);
+    background-color: black;
+  }
+  .maderaPau {
+    display: flex;
+  }
+  .maderaPau img {
+    height: 30rem;
+    width: 20rem;
+    padding-left: 1rem;
+  }
+  .maderaPau p {
+    text-align: center;
+    color: rgba(245, 245, 220, 0.658);
+    padding: 1rem;
+    font-size: 2rem;
+  }
+  .tituloGuayu {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: baseline;
+    margin-bottom: 2rem;
+  }
+  .tituloGuayu h3 {
+    font-size: 2rem;
+    color: rgb(167, 84, 7);
+    background-color: black;
+  }
+  .maderaGuayubi {
+    display: flex;
+  }
+  .maderaGuayubi img {
+    height: 30rem;
+    width: 20rem;
+    padding-left: 1rem;
+  }
+  .maderaGuayubi p {
+    text-align: center;
+    color: rgba(245, 245, 220, 0.658);
+    padding: 1rem;
+    font-size: 2rem;
+  }
+  .tituloGuaya {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: baseline;
+    margin-bottom: 2rem;
+  }
+  .tituloGuaya h3 {
+    font-size: 2rem;
+    color: rgb(167, 84, 7);
+    background-color: black;
+  }
+  .maderaGuayan {
+    display: flex;
+  }
+  .maderaGuayan img {
+    height: 30rem;
+    width: 20rem;
+    padding-left: 1rem;
+  }
+  .maderaGuayan p {
+    text-align: center;
+    color: rgba(245, 245, 220, 0.658);
+    padding: 1rem;
+    font-size: 2rem;
+  }
+  .tituloParais {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: baseline;
+    margin-bottom: 2rem;
+  }
+  .tituloParais h3 {
+    font-size: 2rem;
+    color: rgb(167, 84, 7);
+    background-color: black;
+  }
+  .maderaparaiso {
+    display: flex;
+  }
+  .maderaparaiso img {
+    height: 30rem;
+    width: 20rem;
+    padding-left: 1rem;
+  }
+  .maderaparaiso p {
+    text-align: center;
+    color: rgba(245, 245, 220, 0.658);
+    padding: 1rem;
+    font-size: 2rem;
   }
   .videoDelContacto {
     display: flex;
