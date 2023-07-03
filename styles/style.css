@@ -336,6 +336,8 @@
     display: flex;
     flex-direction: column;
     margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
   }
   .terciario p {
     color: rgba(245, 245, 220, 0.658);
@@ -354,11 +356,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: auto;
+    width: 100%;
   }
   .terciario .segundaSeccion img {
     width: 15rem;
-    height: 20rem;
+    height: 15rem;
   }
   .tituloSecundarioInscripcion {
     margin-top: 3rem;
@@ -621,8 +623,8 @@
   }
   .bloqueFormu form .input4 .buttonContacto button {
     margin-top: 3rem;
-    width: 30%;
-    height: 8rem;
+    width: 25%;
+    height: 3rem;
   }
   .contenedorMapa {
     display: flex;
@@ -826,6 +828,8 @@
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
   }
   .terciario p {
     color: rgba(245, 245, 220, 0.658);
@@ -844,10 +848,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 100%;
   }
   .terciario .segundaSeccion img {
-    width: 30rem;
+    width: 20rem;
     height: 20rem;
   }
   .tituloSecundarioInscripcion {
@@ -1111,8 +1115,8 @@
   }
   .bloqueFormu form .input4 .buttonContacto button {
     margin-top: 3rem;
-    width: 15%;
-    height: 8rem;
+    width: 25%;
+    height: 3rem;
   }
   .contenedorMapa {
     display: flex;
@@ -1289,6 +1293,8 @@
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
   }
   .terciario p {
     color: rgba(245, 245, 220, 0.658);
@@ -1307,10 +1313,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
   .terciario .segundaSeccion img {
-    width: 30rem;
-    height: 20rem;
+    width: 23rem;
+    height: 23rem;
   }
   .tituloSecundarioInscripcion {
     margin-top: 3rem;
@@ -1565,8 +1572,8 @@
   }
   .bloqueFormu form .input4 .buttonContacto button {
     margin-top: 3rem;
-    width: 15%;
-    height: 8rem;
+    width: 30%;
+    height: 4rem;
   }
   .contenedorMapa {
     display: flex;
@@ -1732,6 +1739,8 @@
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
   }
   .terciario p {
     color: rgba(245, 245, 220, 0.658);
@@ -1747,6 +1756,8 @@
   }
   .terciario .resoluDesktop {
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .terciario .resoluDesktop .segundaSeccion {
     display: flex;
@@ -1755,8 +1766,8 @@
     align-items: center;
   }
   .terciario .resoluDesktop .segundaSeccion img {
-    width: 40rem;
-    height: 20rem;
+    width: 30rem;
+    height: 30rem;
   }
   .tituloSecundarioInscripcion {
     margin-top: 3rem;
@@ -2011,8 +2022,8 @@
   }
   .bloqueFormu form .input4 .buttonContacto button {
     margin-top: 3rem;
-    width: 15%;
-    height: 8rem;
+    width: 35%;
+    height: 6rem;
   }
   .contenedorMapa {
     display: flex;
@@ -2181,6 +2192,8 @@
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
   }
   .terciario p {
     color: rgba(245, 245, 220, 0.658);
@@ -2196,6 +2209,9 @@
   }
   .terciario .resoluDesktop {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   .terciario .resoluDesktop .segundaSeccion {
     display: flex;
@@ -2205,7 +2221,7 @@
   }
   .terciario .resoluDesktop .segundaSeccion img {
     width: 40rem;
-    height: 20rem;
+    height: 40rem;
   }
   .tituloSecundarioInscripcion {
     margin-top: 3rem;
@@ -2461,8 +2477,8 @@
   }
   .bloqueFormu form .input4 .buttonContacto button {
     margin-top: 3rem;
-    width: 15%;
-    height: 8rem;
+    width: 35%;
+    height: 6rem;
   }
   .contenedorMapa {
     display: flex;
